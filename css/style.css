@@ -1,0 +1,771 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+    font-family: 'LatoLatinThin';
+    src: url('LatoLatinThin-Regular.eot'); /* IE9 Compat Modes */
+    src: url('LatoLatinThin-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */url('LatoLatinThin-Regular.woff') format('woff'), /* Modern Browsers */url('LatoLatinThin-Regular.ttf') format('truetype'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+html,body{
+  font-family: 'LatoLatinThin' !important;
+  font-style: normal;
+  font-weight: normal;
+  height: 100%;
+  font-weight: bold ;
+}
+.TrianguloFondo {
+    width: 18%;
+    z-index: 5;
+    position: fixed;
+    background: url('../img/banner.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+nav#contenedorMenu {
+    position: fixed;
+    padding-top: 15%;
+    z-index: 10;
+}
+#menuT {
+    /*width: 0;
+    border-bottom: 798px solid #000;
+    border-right: 181px solid transparent;
+    border-left: 120px solid #000;
+    z-index: 1;
+    position: relative;*/
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#MenuPrincipal{
+  font-size: 25pt;
+  list-style: none;
+  line-height: 45pt;
+  position: relative;
+  margin-left: -70px;
+  width: 20%;
+  outline-style: 1px solid green;
+  font-weight: bold;
+}
+.bt-menu{
+  font-size: 25pt;
+}
+a.fancyOther {
+    color: #fff;
+    font-size: 15pt;
+}
+.fancyOther:hover {
+    color: #000 !important;
+      --webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition:all .4s;
+}
+#btnEncuesta {
+  color: #FFFFFF !important;
+  text-decoration: none;
+  --webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition:all .4s;
+}
+a:hover, a:focus { color: #196E27 !important; text-decoration: none !important; }
+
+#aColor{
+  
+  text-decoration: none;
+    --webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition:all .4s;
+}
+#aColor:hover{
+  color: #FF5E00 !important;
+}
+/*Estilos para las opciones del menu (RODI)*/
+#MenuPrincipal a{
+  color: #FFF;
+  display: block;
+  padding-left: 3em;
+  text-decoration: none;
+  --webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  width: 100%;
+}
+#piePagina {
+    height: 100px !important;
+    position: fixed;
+    text-align: right;
+    margin-right: 10px;
+    z-index:0;
+    float: ;
+    padding-left: 70%;
+        margin-top: 30px; /*Estilos Temporal*/
+}
+#AlineaImagen{
+  float: right;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: -10px !important;
+    margin-bottom: 0px;
+}
+/*Slider Full*/
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.carousel {
+    position: absolute !important;
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity !important;
+  -moz-transition-property: opacity !important;
+  -o-transition-property: opacity !important;
+  transition-property: opacity !important;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1 !important;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0 !important;
+  opacity: 0 !important;
+  z-index: 1 !important;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1 !important;
+}
+.carousel-fade .carousel-control {
+  z-index: 2 !important;
+}
+
+
+
+
+
+/*Estilos para el contenedor de datos*/
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    width:100%;
+    height: 80%;
+    position: relative;
+    /*outline-style: solid;*/
+    /*outline-color: blue;*/
+    /*outline-width: 1px;*/
+    z-index: 1;
+}
+/*Estilos de boton encuesta(alinacion del boton)*/
+#btnEncuesta {
+    margin: 0 !important;
+    font: inherit !important;
+    color: inherit !important;
+    margin-left: 126px !important;
+    width: 300px;
+    height: 60px;
+    margin-right: 126px !important;
+    margin-top: 20% !important;
+}
+/*Diseño de boton*/
+
+a:hover, a:focus {
+    color: #F9F9F9 !important;
+    text-decoration: none !important;
+  }
+.btn-success {
+    color: #fff !important;
+    background-color: #4cae4c !important;
+    border-color: rgba(255, 252, 252, 0.58) !important;
+    width: 120px;
+    height: 50px;
+}
+.btnTest {
+    display: inline-block !important;
+    padding: 15px 50px !important;
+    margin-bottom: 0 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 1.42857143 !important;
+    text-align: center !important;
+    white-space: nowrap !important; 
+    vertical-align: middle !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    background-image: none !important;
+    border: 2px solid rgba(255, 255, 255, 0.96) !important;
+    border-radius: 2px !important;
+    z-index: 15;
+  }
+/*Estilos para titulos FOOTER (Rodi)*/
+.titleFooter {
+    font-size: 20pt;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    /*text-shadow: 0px 0px 5px #fff;*/
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.subTitleFooter {
+    text-align: center;
+    font-style: normal;
+    color: #000;
+    font-size: 18pt;
+    margin-top: 0px !important;
+    margin-bottom: 5px !important;
+}
+/*Estilos para el subcontenedor del formulario (emma)*/
+.form_container {
+    position: relative !important;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 40%;
+    margin-left: 20%;
+}
+/* DISEÑO botones formulario contacto*/
+#btn_envia {
+    color: #fff;
+    background-color: #00BE65;
+    border-color: #00BE65;
+    width: 49%;
+    font-weight: bold;
+}
+/* Diseño botones formulario contacto*/
+#btn_cancela{
+    color: #FFF;
+    background-color: #DE2626;
+    border-color: #E00202;
+    width: 49%;
+    font-weight: bold;
+}
+
+/*Estilos para el contenedor de la imagenChanito (rodi)*/
+.cajaEncuesta {
+    width: 100%;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.fondoEncuesta {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100%;
+}
+div#cajaImagenPublicidad {
+    margin-top: 5%;
+}
+.controlaEspacioimg {
+    width: 100%;
+    height: 80%;
+}
+.imga-responsive{
+    display: block;
+    max-width: 60% !important;
+    height: 95%;
+    margin-left: 20%;
+}
+img#socialMedia {
+    padding-right: 30px;
+}
+/*Animacion onload page*/
+.img-responsive{
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
+#btnEncuesta{
+
+      -webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 8s; /* Firefox < 16 */
+        -ms-animation: fadein 8s; /* Internet Explorer */
+         -o-animation: fadein 8s; /* Opera < 12.1 */
+            animation: fadein 8s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/*para titulo Formulairio*/
+h1.h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Estilos para los iconos redes sociales*/
+div#icoSocialF {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-facebook.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+div#icoSocialT {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanitoTwitter.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+div#icoSocialI{
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/instagramChanito.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+div#icoSocialY {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+
+}
+div#icoSocialG {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+
+}
+div#icoSocialF:hover {
+    background: url('../img/hover/chanito-facebookHover.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+div#icoSocialT:hover {
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/chanitotwitterHover.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+        --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+div#icoSocialI:hover{
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/instagramChanitoHover.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+div#icoSocialG:hover{
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+div#icoSocialY:hover{
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 10px;
+            --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+/*Estilos para la seccion biografia (rodi)*/
+div#controlaTituloBio {
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+h1#tituloBio {
+    text-align:right;
+    font-weight: bold;
+    font-size: 20pt !important;
+}
+div#biografiaContent {
+    width: 80%;
+    text-align: justify;
+    font-size: 15pt;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h2#subtituloBio {
+    text-align: right;
+    font-weight: bold;
+    font-size: 14pt;
+    color: gray;
+    margin-top: 0;
+}
+td {
+    font-weight: normal;
+    font-family: arial;
+}
+td#EspacioTD {
+    width: 85px;
+}
+th#tituloHistorialBio {
+    font-family: arial;
+}
+/*Estilos para el menu pegajoso*/
+.menu-fixed {
+  position:fixed;
+  top:0;
+  /*max-width:1000px;*/
+  left:0;
+}
+/*Estilos para la imagen del formulario de contacto*/
+div#imgChanito {
+    position: relative;
+    float: left;
+    width: 90%;
+    z-index: 3;
+    margin-left: 585px;
+    margin-top: -95%;
+}
+form#formulario {
+    margin-top: 80px;
+}
+/*Estilos para el option del select*/
+option {
+    font-size: 10pt;
+    font-family: arial;
+}
+/*Estilos para los iconos redes sociales*/
+div#icoFacebook{
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-facebook.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+}
+div#icotwitter {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanitoTwitter.png');
+    background-repeat: no-repeat;
+    margin-left: 0%;
+}
+div#icoinstagram{
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/instagramChanito.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+   
+}
+div#icoyoutube{
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+   
+}
+div#icogoogle{
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+   
+}
+div#icoFacebook:hover {
+    background: url('../img/hover/chanito-facebookHover.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+        --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+div#icotwitter:hover {
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/chanitotwitterHover.png');
+    background-repeat: no-repeat;
+    margin-left:  0px;
+        --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+div#icoinstagram:hover{
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/instagramChanitoHover.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+     --webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+div#icoyoutube:hover{
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+     --webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+div#icogoogle:hover{
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+     --webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+.Bio_Secciones{
+    margin-bottom: 20px;
+}
+.redes{
+    margin-left:80%; 
+    margin-bottom: 10%;
+}
+/*Estilos de Biografia*/
+.line_rojo{
+    background-color: red;
+    height: 2px;
+    width: 100%;
+}
+.line_gris{
+    background-color: gray;
+    height: 2px;
+    width: 100%;
+}
+.line_verde{
+    background-color: green;
+    height: 2px;
+    width: 100%;
+}
+#biografia {
+  font-size: 10pt !important;
+}
+
+#tituloHistorialBio{
+  font-size: 14pt;
+  font-weight: bold;
+}
+.espacioTEXT{
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/*Estilos para fotochanito cv*/
+.imgCV {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: url('../img/cvchanitoledo.png');
+    margin-top: -10%;
+    margin-bottom: 25px;
+    margin-left: 15%;
+}
+/*Estilos titulo CV*/
+h3#TituloCV {
+    text-align: right;
+    font-weight: bold;
+    margin-top: -5%;
+    font-size: 25pt;
+}
+
+/*spacelsocial*/
+.col-md-2 {
+    margin-left: 2%;
+}
+/*Seccion multimedia*/
+video#fondoMultimedia { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+div#formularioBusqueda {
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+div#tituloMultimedia {
+    text-align: center;
+    font-size: 35pt;
+    color: #00bd64;
+    font-weight: bold;
+}
+#selectfiltro{
+    width: 260px;
+    height: 50px;
+}
+#inputfiltro{
+    width: 260px;
+    height: 50px;  
+}
+.fa{
+    margin: 0px;
+}
+
+/*Inician los estilos para la galeria mi foto con chanito -Rodi-*/
+.item {
+    width: 200px;
+    margin: 1px;
+    float: left;
+    background-color: #ccc;
+}
+#titleGalery {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40pt;
+}
+div#formularioBusquedaGaleri {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+}
+
+/*Estilos para el modulo REcetasNAvidad*/
+.plecaNavidad{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    margin-left: 0.5%;
+}
+.pleca {
+    width: 100%;
+    height: 140px;
+}
+.plecaResponsive{
+    width: 100%;
+    height: 140px;
+    display: none;
+}
+.fondoNavidad {
+    background: rgb(156, 13, 13);
+    height: 100% !important;
+}
+#btn_cancelaReceta{
+    color: #FFF;
+    background-color: #DE2626;
+    border-color: #FFFFFF;
+    width: 50%;
+}
+#piePaginaRecetas{
+    height: 173px !important;
+    position: fixed;
+    text-align: right;
+    margin-right: 0px;
+    z-index: 0;
+    float: ;
+    padding-left: 80%;
+    background: #9C0D0D;
+    margin-top: -80px;
+}
+.form_containerRecetas{
+    position: relative !important;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 40%;
+    margin-left: 20%;
+}
+section#margenForm {
+    margin-top: 5%;
+}
+h1#h1Recetas {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+h1.titleFooterRecetas {
+    color: #fff;
+    margin-bottom: 0px;
+}
+h3.subTitleFooterRecetas {
+    margin-top: 0px;
+    color: #fff;
+    text-align: center;
+}

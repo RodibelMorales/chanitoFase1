@@ -1,0 +1,4736 @@
+@media screen and (max-width: 1600px){
+	#btnEncuesta {
+    	margin: 0 !important;
+    	font: inherit !important;
+    	color: inherit !important;
+    	margin-left: 126px !important;
+    	width: 300px;
+    	height: 60px;
+    	margin-right: 126px !important;
+    	margin-top: 40px !important;
+	}
+	div#biografiaContent {
+    	width: 80%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 15%;
+    	margin-right: 10%;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+   	    background: url('../img/cvchanitoledo.png');
+    	margin-top: 10%;
+    	margin-bottom: 25px;
+    	margin-left: 15%;
+	}
+}
+@media screen and (max-width: 1440px){
+	div#biografiaContent {
+    	width: 80%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 20%;
+    	margin-right: 10%;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+   	    background: url('../img/cvchanitoledo.png');
+    	margin-top: 5%;
+    	margin-bottom: 25px;
+    	margin-left: 15%;
+	}
+	.TrianguloFondo {
+	    width: 21%;
+	    z-index: 5;
+	    position: fixed;
+	    background: url('../img/banner.png');
+	    height: 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+}
+@media screen and (max-width: 1380px){
+	.controlaEspacioimg{
+		width: 90%;
+		height: 90%;
+	}
+	div#biografiaContent {
+    	width: 80%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 20%;
+    	margin-right: 10%;
+	}
+	#piePagina {
+    	height: 100px !important;
+    	position: absolute;
+    	text-align: right;
+    	margin-right: 10px;
+    	z-index: 0;
+    	padding-left: 70%;
+ 	   	margin-top: 0px;
+	}
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+	}
+	h1#tituloBio {
+    	text-align: right;
+    	font-weight: bold;
+    	font-size: 40pt;
+    	margin-top: 20px;
+	}
+}
+@media screen and (max-width: 1280px){
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 90%;
+    	z-index: 3;
+    	margin-left: 570px;
+    	margin-top: -95%;
+	}
+	h1#tituloBio {
+    	text-align: right;
+    	font-weight: bold;
+    	font-size: 25pt;
+    	margin-top: 20px;
+	}
+	.TrianguloFondo {
+	    width: 25%;
+	    z-index: 5;
+	    position: fixed;
+	    background: url('../img/banner.png');
+	    height: 100%;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	div#biografiaContent {
+    	width: 80%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 22%;
+    	margin-right: 10%;
+	}
+}
+@media screen and (max-width: 1024px){
+	/*Inician los estilos para el menu Responsive*/
+	nav{
+			box-sizing: border-box;
+			left: -18em;
+			height: 100%;
+			padding-right: .25em;
+			padding-top: 3em;
+			position: fixed;
+			top: 0;
+			transition: all .3s;
+			z-index: 20;
+		}
+	nav.VerMenu {
+  			left: 0;
+  			padding-left: 8px;
+  		    padding-top: 65px;
+  		    width: 150px;
+  		    height: 100%;
+	}
+	nav#contenedorMenu {
+    		position: absolute !important;
+    		padding-top: 7% !important;
+    		z-index: 10;
+	}
+	.VerMenuIco {
+			background: url('../img/MR.png');
+			background-repeat: no-repeat;
+			cursor: pointer;
+			left: 2em;
+		    height: 40px;
+			position: fixed;
+			top: 1.5em;
+			width: 100px;
+			z-index: 30;
+	}
+	#MenuPrincipal {
+  			font-size: 15pt;
+  			list-style: none;
+  			line-height: 280%;
+  			margin-left: 0;
+  			margin-top: 0;
+  			position: fixed;
+  			margin-left: 20px;
+  			width: 15%;
+  			background-color: rgba(255, 255, 255, 0.57);
+	}
+	#MenuPrincipal li {
+		    box-shadow: 4px 0 rgba(10,152,52,4.2) inset;
+		    margin-bottom: 5px;
+		    padding-left: .8em;
+		    /* outline: 1px solid green; */
+		    --webkit-transition: all .5s;
+		    -o-transition: all .5s;
+		    transition: all .5s;
+	}
+	/*Espacio de letras y el margen verde menu Responsivo (Rodi)*/
+	#MenuPrincipal a {
+	    color: #000000;
+	    display: block;
+	    padding-left: 0;
+	    text-decoration: none;
+	    --webkit-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s;
+	    width: 100%;
+	    font-weight: bold;
+	}
+	#piePagina {
+	    height: 102px !important;
+	    position: absolute !important;
+	    text-align: center;
+	    /* margin-right: 10px; */
+	    z-index: 10;
+	    width: 100%;
+	    /* margin-left: 0%; */
+	    /* margin-top: 100%; */
+	    padding-left: 0%;
+	    background-color: #57595B;
+	}
+	.titleFooter {
+    	font-size: 15pt;
+	}
+	.subTitleFooter {
+	    font-size: 14pt;
+	}
+	/*Estilos para el contenedor del menu*/
+	nav#contenedorMenu {
+	    position: relative;
+	    padding-top: 15.9%;
+	}
+	/*Estilos para el boton encuesta*/
+	#btnEncuesta {
+	    margin: 0 !important;
+	    font: inherit !important;
+	    color: inherit !important;
+	    margin-left: 0px !important;
+	    margin-top: 0% !important;
+	    width: 100% !important;
+	    height: 60px !important;
+	}
+	/*estilos para el menu*/
+	.TrianguloFondo {
+	    width: 100%;
+	    z-index: 5;
+	    position: fixed;
+	    background: #57595B;
+	    height: 70px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	/*Estilos para el contenedor ROW */
+	.row {
+	    margin-right: 15px !important;
+	    margin-left: 15px !important;
+	    margin-bottom: 0px;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	div#cajaImagenPublicidad {
+    	margin-top: 40px !important;
+	}
+	.fondoEncuesta {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    margin-right: 0% !important;
+	    height: 100%;
+	}
+	.controlaEspacioimg {
+	    width: 100%;
+	    height: 70%;
+        margin-top: 10%;
+	}
+	/*estilos para la clase container de bootstrap*/
+	.container {
+    	padding-right: 0px !important;
+    	padding-left: 0px !important;
+    	margin-right: auto !important;
+    	margin-left: auto !important;
+        margin-top:0px !important;
+      /*  width: 1024px !important;*/
+    	margin-bottom:0px !important;
+    	width: 100% !important;
+    	height: auto !important;
+    	position: relative !important;
+    	/* outline-style: solid; */
+    	/* outline-color: blue; */
+    	/* outline-width: 1px; */
+    	z-index: 1;
+	}
+	#menuT {
+	    position: absolute;
+	    width: 100%;
+	    height: auto;
+	}
+	/*Estilos para la clase row que contiene los iconos de redes sociales*/
+	div#fondoIconos {
+    	background-color: #57595B;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 0% !important;
+	    margin-top: 5%;
+	    margin-bottom: 4%;
+	    width: 100%;
+	}
+	/*estilos para los botones enviar cancelar del formulario*/
+	#btn_envia {
+	    color: #fff;
+	    background-color: #00BE65;
+	    border-color: #00BE65;
+	    width: 49.5%;
+	}
+	#btn_cancela {
+	    color: #FFF;
+	    background-color: #DE2626;
+	    border-color: #E00202;
+	    width: 50%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+         float: left;
+    	 z-index: 100;
+    	 position: absolute;
+	}
+	div#icoSocialT{
+		margin-left: 25%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+    	margin-left: 45%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY{
+    	margin-left: 75%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-canal-youtube.png');
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialG {
+    	background: url('../img/chanito-toledo-googleplus.png');
+    	background-repeat: no-repeat;
+    	margin-left: 90%;
+	}
+    
+	/*Estilos para los iconos redes sociales hover*/
+	div#icoSocialF:hover {
+    	margin-left: 5%;
+	}
+	div#icoSocialT:hover{
+		margin-left: 25%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 45%;
+		background: url('../img/instagramovilchanito.png');
+	}
+    div#icoSocialY:hover{
+		margin-left: 75%;
+		background: url('../img/hover/chanito-toledo-canal-youtube.png');
+	}
+    div#icoSocialG:hover {
+    	background: url('../img/hover/chanito-toledo-googleplus.png');
+    	background-repeat: no-repeat;
+    	margin-left: 90%;
+	}
+	/*Estilos para la imagen Logochanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	/* z-index: 3; */
+   	 	margin-left: 0px;
+    	margin-top: -95%;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 15pt !important;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+        color: black;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 14pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	form#formulario {
+    	margin-top: 40px;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:35%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 35%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	/*Estilos hover para los iconos socialmedia*/
+	div#icoFacebook:hover {
+    	background: url('../img/hover/chanito-facebookHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 35%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icotwitter:hover {
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/hover/chanitotwitterHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icoinstagram:hover{
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 35%;
+	}
+	footer#piePagina {
+    	margin-top: 9%;
+	}
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1220px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 170px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -5%;
+    	margin-bottom: 25px;
+    	margin-left: 0%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -15%;
+    	font-size: 25pt;
+    	margin-left: 50%;
+    	margin-bottom: 10%;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: left;
+	}
+	div#TexBioinfo {
+    	text-align: left;
+	}
+}
+@media screen and (max-width: 960px){
+	#btn_envia {
+	    color: #fff;
+	    background-color: #00BE65;
+	    border-color: #00BE65;
+	    width: 49%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF{
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+	}
+	div#icoSocialT{
+		margin-left: 22%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+		margin-left: 45%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY{
+		margin-left: 69%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-canal-youtube.png');
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialG{
+		margin-left: 90%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-googleplus.png');
+    	position: absolute;
+   		float: left;
+	}
+	div#icoSocialF:hover{
+    	margin-left: 10px;
+	}
+	div#icoSocialT:hover{
+		margin-left: 22%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 45%;
+    	margin-right: 45%;
+    	background: url('../img/hover/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY:hover{
+		margin-left: 69%;
+    	margin-right: 50%;
+    	background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialG:hover{
+		margin-left: 90%;
+    	margin-right: 50%;
+    	background: url('../img/hover/chanito-toledo-googleplus.png');
+    	position: absolute;
+   		float: left;
+	}
+		/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 25pt !important;
+    	margin-top: 0px;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 15pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 15%;
+    	float: left;
+	}
+	div#icogoogle {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-toledo-googleplus.png');
+    	background-repeat: no-repeat;
+    	margin-left: -25%;
+    	float: left;
+	}
+	#icoyoutube{
+		margin-left: 40%;
+		float: left;
+	}
+	div#icoFacebook:hover {
+    	background: url('../img/hover/chanito-facebookHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 0%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icotwitter:hover {
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/hover/chanitotwitterHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icoinstagram:hover{
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/hover/instagramChanitoHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 15%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+	}
+	#icoyoutube:hover{
+		margin-left: 40%
+		--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+	}
+	#icogoogle:hover{
+		
+		background: ('../img/hover/chanito-toledo-googleplus.png');
+		margin-left: -25% !important;
+	}
+
+
+
+
+
+
+
+
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 0%;
+	}
+	.row.headBIO {
+    	margin-top: 130px;
+	}
+}
+@media screen and (max-width: 900px) {
+	/*Inician los estilos para el menu Responsive*/
+	nav{
+			box-sizing: border-box;
+			left: -18em;
+			height: 100%;
+			padding-right: .25em;
+			padding-top: 3em;
+			position: absolute;
+			top: 0;
+			transition: all .3s;
+			z-index: 20;
+		}
+	nav.VerMenu {
+  			left: 0;
+  			padding-left: 8px;
+  		    padding-top: 65px;
+  		    width: 150px;
+  		    height: 100%;
+	}
+	nav#contenedorMenu {
+    		position: absolute !important;
+    		padding-top: 15% !important;
+    		z-index: 10;
+	}
+	.VerMenuIco {
+			background: url('../img/MR.png');
+			background-repeat: no-repeat;
+			cursor: pointer;
+			left: 2em;
+		    height: 40px;
+			position: fixed;
+			top: 1.5em;
+			width: 100px;
+			z-index: 30;
+	}
+	#MenuPrincipal {
+  			font-size: 15pt;
+  			list-style: none;
+  			line-height: 280%;
+  			margin-left: 0;
+  			margin-top: 0;
+  			position: fixed;
+  			margin-left: 20px;
+  			width: 30%;
+  			background-color: rgba(255, 255, 255, 0.57);
+	}
+	#MenuPrincipal li {
+		    box-shadow: 4px 0 rgba(10,152,52,4.2) inset;
+		    margin-bottom: 5px;
+		    padding-left: .8em;
+		    /* outline: 1px solid green; */
+		    --webkit-transition: all .5s;
+		    -o-transition: all .5s;
+		    transition: all .5s;
+	}
+	/*Espacio de letras y el margen verde menu Responsivo (Rodi)*/
+	#MenuPrincipal a {
+	    color: #000000;
+	    display: block;
+	    padding-left: 0;
+	    text-decoration: none;
+	    --webkit-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s;
+	    width: 100%;
+	    font-weight: bold;
+	}
+	#piePagina {
+	    height: 120px !important;
+	    position: absolute !important;
+	    text-align: center;
+	    /* margin-right: 10px; */
+	    z-index: 10;
+	    width: 100%;
+	    /* margin-left: 0%; */
+	    /* margin-top: 100%; */
+	    padding-left: 0%;
+	    background-color: #57595B;
+	}
+	.titleFooter {
+    	font-size: 15pt;
+	}
+	.subTitleFooter {
+	    font-size: 14pt;
+	}
+	/*Estilos para el contenedor del menu*/
+	nav#contenedorMenu {
+	    position: relative;
+	    padding-top: 15.9%;
+	}
+	/*Estilos para el boton encuesta*/
+	#btnEncuesta {
+	    margin: 0 !important;
+	    font: inherit !important;
+	    color: inherit !important;
+	    margin-left: 0px !important;
+	    margin-top: 0% !important;
+	    width: 100% !important;
+	    height: 60px !important;
+	}
+	/*estilos para el menu*/
+	.TrianguloFondo {
+	    width: 100%;
+	    z-index: 5;
+	    position: fixed;
+	    background: #57595B;
+	    height: 70px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	/*Estilos para el contenedor ROW */
+	.row {
+	    margin-right: 0px !important;
+	    margin-left: 0px !important;
+	    margin-bottom: 0px;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	div#cajaImagenPublicidad {
+    	margin-top: 40px !important;
+	}
+	.fondoEncuesta {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    margin-right: 0% !important;
+	    height: 100%;
+	}
+	.controlaEspacioimg {
+	    width: 100%;
+	    height: 70%;
+	}
+	/*estilos para la clase container de bootstrap*/
+	.container {
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	margin-right: auto;
+    	margin-left: auto;
+        margin-top: 40px;
+    	margin-bottom: 15px !important;
+    	width: 100%;
+    	height: auto;
+    	position: relative;
+    	/* outline-style: solid; */
+    	/* outline-color: blue; */
+    	/* outline-width: 1px; */
+    	z-index: 1;
+	}
+	#menuT {
+	    position: absolute;
+	    width: 100%;
+	    height: auto;
+	}
+	/*Estilos para la clase row que contiene los iconos de redes sociales*/
+	div#fondoIconos {
+    	background-color: #57595B;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 30% !important;
+	    margin-top: 5%;
+	    width: 45%;
+	}
+	.menu-fixed {
+  		position:fixed;
+  		top:0;
+  		/*max-width:1000px;*/
+  		left:0;
+	}
+		/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/instagramChanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 25.5%;
+	}
+}
+@media screen and (max-width: 800px){
+    div#icoSocialF {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-facebook.png');
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    }
+    
+    div#icoSocialT {
+    margin-left: 20%;
+    margin-right: 0;
+    float: left;
+    position: absolute;
+    z-index: 100;
+    }
+    div#icoSocialI {
+    margin-left: 45%;
+    margin-right: 45%;
+    background: url('../img/intagramchanitomovil.png');
+    position: absolute;
+    float: left;
+    }
+    
+    div#icoSocialY {
+    margin-left: 70%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    position: absolute;
+    float: left;
+    }
+    
+    div#icoSocialG {
+    margin-left: 90%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+    
+    div#icoSocialF:hover {
+    margin-left: 0%;
+    }
+    
+    div#icoSocialT:hover {
+    margin-left: 20%;
+    }
+    
+    div#icoSocialI:hover {
+    margin-left: 45%;
+    margin-right: 45%;
+    background: url('../img/instagramovilchanito.png');
+    position: absolute;
+    float: left;
+    }
+     div#icoSocialY:hover {
+    margin-left: 70%;
+    margin-right: 45%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG:hover {
+    margin-left: 90%;
+    margin-right: 45%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+    .controlaEspacioimg {
+    width: 100%;
+    height: 70%;
+    margin-top: 20%;
+    }
+    
+    div#icoFacebook {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/chanito-facebook.png');
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    float: left;
+    }
+    
+    div#icoinstagram {
+    width: 34px !important;
+    height: 34px !important;
+    background: url('../img/instagramChanito.png');
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    -o-transition: all .5s;
+    transition: all .5s;
+    float: left;
+    }
+    
+    div#icoinstagram:hover {
+    width: 34px;
+    height: 34px;
+    background: url('../img/hover/instagramChanitoHover.png');
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    }
+    div#icoFacebook:hover {
+    background: url('../img/hover/chanito-facebookHover.png');
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+	}
+}
+@media screen and (max-width: 768px) {
+	/*Inician los estilos para el menu Responsive*/
+	nav{
+			box-sizing: border-box;
+			left: -18em;
+			height: 100%;
+			padding-right: .25em;
+			padding-top: 3em;
+			position: absolute;
+			top: 0;
+			transition: all .3s;
+			z-index: 20;
+		}
+	nav.VerMenu {
+  			left: 0;
+  			padding-left: 8px;
+  		    padding-top: 65px;
+  		    width: 150px;
+  		    height: 100%;
+	}
+	nav#contenedorMenu {
+    		position: absolute !important;
+    		padding-top: 10% !important;
+    		z-index: 10;
+	}
+	.VerMenuIco {
+			background: url('../img/MR.png');
+			background-repeat: no-repeat;
+			cursor: pointer;
+			left: 2em;
+		    height: 40px;
+			position: fixed;
+			top: 1.5em;
+			width: 100px;
+			z-index: 30;
+	}
+	#MenuPrincipal {
+  			font-size: 15pt;
+  			list-style: none;
+  			line-height: 280%;
+  			margin-left: 0;
+  			margin-top: 0;
+  			position: fixed;
+  			margin-left: 20px;
+  			width: 30%;
+  			background-color: rgba(255, 255, 255, 0.57);
+	}
+	#MenuPrincipal li {
+		    box-shadow: 4px 0 rgba(10,152,52,4.2) inset;
+		    margin-bottom: 5px;
+		    padding-left: .8em;
+		    /* outline: 1px solid green; */
+		    --webkit-transition: all .5s;
+		    -o-transition: all .5s;
+		    transition: all .5s;
+	}
+	/*Espacio de letras y el margen verde menu Responsivo (Rodi)*/
+	#MenuPrincipal a {
+	    color: #000000;
+	    display: block;
+	    padding-left: 0;
+	    text-decoration: none;
+	    --webkit-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s;
+	    width: 100%;
+	    font-weight: bold;
+	}
+	#piePagina {
+	    height: 120px !important;
+	    position: absolute !important;
+	    text-align: center;
+	    /* margin-right: 10px; */
+	    z-index: 10;
+	    width: 100%;
+	    /* margin-left: 0%; */
+	    /* margin-top: 100%; */
+	    padding-left: 0%;
+	    background-color: #57595B;
+	}
+	.titleFooter {
+    	font-size: 15pt;
+	}
+	.subTitleFooter {
+	    font-size: 14pt;
+	}
+	/*Estilos para el contenedor del menu*/
+	nav#contenedorMenu {
+	    position: relative;
+	    padding-top: 15.9%;
+	}
+	/*Estilos para el boton encuesta*/
+	#btnEncuesta {
+	    margin: 0 !important;
+	    font: inherit !important;
+	    color: inherit !important;
+	    margin-left: 0px !important;
+	    margin-top: 0% !important;
+	    width: 100% !important;
+	    height: 60px !important;
+	}
+	/*estilos para el menu*/
+	.TrianguloFondo {
+	    width: 100%;
+	    z-index: 5;
+	    position: fixed;
+	    background: #57595B;
+	    height: 70px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	/*Estilos para el contenedor ROW */
+	.row {
+	    margin-right: 10px !important;
+	    margin-left: 10px !important;
+	    margin-bottom: 0px;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	div#cajaImagenPublicidad {
+    	margin-top: 40px !important;
+	}
+	.fondoEncuesta {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    margin-right: 0% !important;
+	    height: 100%;
+	}
+	.controlaEspacioimg {
+	    width: 100%;
+	    height: 70%;
+	    margin-top: 5%;
+	}
+	/*estilos para la clase container de bootstrap*/
+	.container {
+    	padding-right: 0px !important;
+    	padding-left: 0px !important; !important
+    	margin-right: auto !important;
+    	margin-left: auto !important;
+        margin-top: 10% !important;
+    	margin-bottom: 0px !important;
+    	width: 100% !important;
+    	height: auto !important;
+    	position: relative !important;
+    	/* outline-style: solid; */
+    	/* outline-color: blue; */
+    	/* outline-width: 1px; */
+    	z-index: 1;
+	}
+	h1.h1 {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 35pt;
+	}
+	#menuT {
+	    position: absolute;
+	    width: 100%;
+	    height: auto;
+	}
+	/*Estilos para la clase row que contiene los iconos de redes sociales*/
+	div#fondoIconos {
+    	background-color: #57595B;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 0% !important;
+	    margin-top: 40%;
+	    margin-bottom: 5.5%;
+	    width: 100%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+    	 margin-left: 10%;
+	}
+	div#icoSocialT{
+		margin-left: 25%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+    	margin-left: 45%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY{
+    	margin-left: 65%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-canal-youtube.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialG {
+        margin-left: 80%;
+        margin-right: 45%;
+        background: url('../img/chanito-toledo-googleplus.png');
+        position: absolute;
+        float: left;
+    }
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF:hover{
+    	margin-left: 10%;
+	}
+	div#icoSocialT:hover{
+		margin-left: 25%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 45%;
+		background: url('../img/instagramovilchanito.png');
+		background-repeat: no-repeat;
+	}
+    div#icoSocialY:hover{
+		margin-left: 65%;
+		background: url('../img/hover/chanito-toledo-canal-youtube.png');
+		background-repeat: no-repeat;
+	}
+    div#icoSocialG:hover {
+        margin-left: 80%;
+        margin-right: 50%;
+        background: url('../img/hover/chanito-toledo-googleplus.png');
+        position: absolute;
+        float: left;
+    }
+   
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: absolute;
+    	float: left;
+    	width: 90%;
+    	z-index: 3;
+    	margin-left: 60px;
+    	margin-top: -105%;
+	    /* visibility: hidden; */
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+    	margin-left: 10px;
+   		margin-right: 10px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 15pt !important;
+    	margin-top: 0%;
+        color: #000;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+        font-size: 14pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	float: left;
+         z-index: 100;
+        position: absolute;
+        margin-left: 10%;
+	}
+	div#icotwitter {
+    	
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	float: left;    
+        margin-right: 0;
+        position: absolute;
+        z-index: 100;
+	}
+	div#icoinstagram {
+    	
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	 margin-left: 45%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+        margin-right: 45%;
+        position: absolute;
+	}
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 65%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;    
+    margin-left: 80%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    
+    div#icoFacebook:hover {
+    background: url('../img/hover/chanito-facebookHover.png');
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    -o-transition: all .6s;
+    transition: all .6s;
+    margin-left: 10%;
+	}
+    div#icotwitter:hover {
+    background: url('../img/hover/chanitotwitterHover.png');
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    }
+    div#icoinstagram:hover {
+     background: url('../img/instagramovilchanito.png');
+     background-repeat: no-repeat;
+     margin-left: 45%;
+    }
+    div#icoyoutube:hover {
+    	background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    	background-repeat: no-repeat;
+    	margin-left: 65%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    }
+    div#icogoogle:hover {
+    	background: url('../img/hover/chanito-toledo-googleplus.png');
+    	background-repeat: no-repeat;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	margin-left: 80%;
+    	margin-right: 50%;
+    	position: absolute;
+    	float: left;
+	}
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 9%;
+	}
+    div#controlaTituloBio {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: absolute;
+    margin-top: 170%;
+    width: 100%;
+    background-color: #57595B;
+	}
+}
+@media screen and (max-width: 736px){
+	.form_container {
+    	position: relative;
+    	margin-left: 0% !important;
+    	margin-top: 0%;
+    	margin-bottom: 5.5%;
+    	width: 100%;
+	}
+    .container{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    }
+    .row {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    margin-bottom: 0px;
+    }
+	div#imgChanito {
+    	position: absolute;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0%;
+    	visibility: hidden;
+	}
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 25pt !important;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 15pt;
+    	color: gray;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+	}
+    div#icoFacebook {
+    background: url('../img/chanito-facebook.png');
+    background-repeat: no-repeat;
+    float: left;
+    z-index: 100;
+    position: absolute;
+    margin-left: 0%;
+    }
+    div#icotwitter {
+    background: url('../img/chanitoTwitter.png');
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    float: left;
+    margin-right: 0;
+    position: absolute;
+    z-index: 100;
+    }
+    div#icoinstagram {
+    background: url('../img/intagramchanitomovil.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    float: left;
+    margin-right: 45%;
+    position: absolute;
+    }
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-right: 45%;
+    position: relative;
+    float: left;
+    }
+	div#icoFacebook:hover {
+    	background: url('../img/hover/chanito-facebookHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 10%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icotwitter:hover {
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/hover/chanitotwitterHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icoinstagram:hover{
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+	}
+    div#icoyoutube:hover {
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    div#icogoogle:hover {
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 80%;
+    margin-right: 50%;
+    position: relative;
+    float: left;
+    }
+	footer#piePagina {
+    	margin-top: 10.5%;
+	}
+    
+    
+    
+    div#icoSocialF {
+    float: left;
+    z-index: 100;
+    position: absolute;
+    margin-left: 0%;
+    }
+    div#icoSocialT {
+    margin-left: 20%;
+    margin-right: 0;
+    float: left;
+    position: absolute;
+    z-index: 100;
+    }
+    div#icoSocialI {
+    margin-left: 40%;
+    margin-right: 45%;
+    background: url('../img/intagramchanitomovil.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+    
+    div#icoSocialF:hover {
+    margin-left: 0%;
+    }
+    div#icoSocialT:hover {
+    margin-left: 20%;
+    }
+    div#icoSocialI:hover {
+    margin-left: 40%;
+    background: url('../img/instagramovilchanito.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialG:hover {
+    	margin-left: 80%;
+    	margin-right: 50%;
+    	background: url('../img/hover/chanito-toledo-googleplus.png');
+    	position: absolute;
+    	float: left;
+	}
+    
+	/*Estilos para el footerDelaBiografia*/
+	.redes {
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1230px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 70px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -10%;
+    	margin-bottom: 25px;
+    	margin-left: 40%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: 0%;
+    	font-size: 25pt;
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+}
+@media screen and (max-width: 667px){
+	nav#contenedorMenu{
+		padding-top: 10.5% !important;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+    	position: relative;
+    	margin-left: 0% !important;
+    	margin-top: 0%;
+    	width: 100%;
+	}
+	/*Estilos para el footer*/
+	#piePagina {
+    	height: 120px !important;
+    	position: absolute !important;
+    	text-align: center;
+    	z-index: 10;
+    	width: 100%;
+    	padding-left: 0%;
+    	background-color: #57595B;
+	}
+    
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+        margin-left: 0%;
+	}
+	div#icoSocialT{	
+    	margin-left: 20%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+    	margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+   		background-repeat: no-repeat;
+	}
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF:hover {
+    	margin-left: 0%;
+	}
+	div#icoSocialT:hover {
+		margin-left: 20%;
+	}
+	div#icoSocialI:hover {
+		margin-left: 40%;
+		background: url('../img/instagramovilchanito.png');
+		background-repeat: no-repeat;
+	}
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+    	font-size: 25pt !important;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+        margin-left: 0%;
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-right: 45%;
+    position: relative;
+    float: left;
+    }
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	/*Estilos para los iconos redes sociales hover*/
+	div#icoFacebook:hover {
+    	background: url('../img/hover/chanito-facebookHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 0%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icotwitter:hover {
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/hover/chanitotwitterHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icoinstagram:hover{
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+    div#icoyoutube:hover {
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    div#icogoogle:hover {
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 80%;
+    margin-right: 50%;
+    position: relative;
+    float: left;
+    }
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 35px;
+	}
+	footer#piePagina {
+    	margin-top: 10.5%;
+    	    z-index: 0;
+	}
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1280px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 70px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -10%;
+    	margin-bottom: 25px;
+    	margin-left: 40%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+    .controlaEspacioimg {
+    width: 100%;
+    height: 70%;
+    margin-top: 10%;
+    }
+}
+@media screen and (max-width: 640px){
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1360px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 50px;
+	}
+    .form_container {
+    position: relative;
+    margin-left: 0% !important;
+    margin-top: 10%;
+    width: 100%;
+    }
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: 5%;
+    	margin-bottom: 100px;
+    	margin-left: 40%;
+	}
+    .controlaEspacioimg {
+    width: 100%;
+    height: 70%;
+    margin-top: 15%;
+    }
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -15%;
+    	font-size: 25pt;
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: left;
+	}
+	div#TexBioinfo {
+    	text-align: left;
+	}
+}
+@media screen and (max-width: 600px) {
+	/*Inician los estilos para el menu Responsive*/
+	nav{
+			box-sizing: border-box;
+			left: -18em;
+			height: 100%;
+			padding-right: .25em;
+			padding-top: 3em;
+			position: absolute;
+			top: 0;
+			transition: all .3s;
+			z-index: 20;
+		}
+	nav.VerMenu {
+  			left: 0;
+  			padding-left: 8px;
+  		    padding-top: 65px;
+  		    width: 150px;
+  		    height: 100%;
+	}
+	nav#contenedorMenu {
+    		position: absolute !important;
+    		padding-top: 15% !important;
+    		z-index: 10;
+	}
+	.VerMenuIco {
+			background: url('../img/MR.png');
+			background-repeat: no-repeat;
+			cursor: pointer;
+			left: 2em;
+		    height: 40px;
+			position: fixed;
+			top: 2.5em;
+			width: 100px;
+			z-index: 30;
+	}
+	#MenuPrincipal {
+  			font-size: 15pt;
+  			list-style: none;
+  			line-height: 280%;
+  			margin-left: 0;
+  			margin-top: 0;
+  			position: fixed;
+  			margin-left: 20px;
+  			width: 30%;
+  			background-color: rgba(255, 255, 255, 0.57);
+	}
+	#MenuPrincipal li {
+		    box-shadow: 4px 0 rgba(10,152,52,4.2) inset;
+		    margin-bottom: 5px;
+		    padding-left: .8em;
+		    /* outline: 1px solid green; */
+		    --webkit-transition: all .5s;
+		    -o-transition: all .5s;
+		    transition: all .5s;
+	}
+	/*Espacio de letras y el margen verde menu Responsivo (Rodi)*/
+	#MenuPrincipal a {
+	    color: #000000;
+	    display: block;
+	    padding-left: 0;
+	    text-decoration: none;
+	    --webkit-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s;
+	    width: 100%;
+	    font-weight: bold;
+	}
+	#piePagina {
+	    height: 120px !important;
+	    position: absolute !important;
+	    text-align: center;
+	    /* margin-right: 10px; */
+	    z-index: 10;
+	    width: 100%;
+	    /* margin-left: 0%; */
+	    margin-top: 6%; 
+	    padding-left: 0%;
+	    background-color: #57595B;
+	}
+	.titleFooter {
+    	font-size: 15pt;
+	}
+	.subTitleFooter {
+	    font-size: 14pt;
+	}
+	/*Estilos para el contenedor del menu*/
+	nav#contenedorMenu {
+	    position: relative;
+	    padding-top: 15.9%;
+	}
+	/*Estilos para el boton encuesta*/
+	#btnEncuesta {
+	    margin: 0 !important;
+	    font: inherit !important;
+	    color: inherit !important;
+	    margin-left: 0px !important;
+	    margin-top: 0% !important;
+	    width: 100% !important;
+	    height: 60px !important;
+	}
+	/*estilos para el menu*/
+	.TrianguloFondo {
+	    width: 100%;
+	    z-index: 5;
+	    position: fixed;
+	    background: #57595B;
+	    height: 110px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	/*Estilos para el contenedor ROW */
+	.row {
+	    margin-right: 10px !important;
+	    margin-left: 10px !important;
+	    margin-bottom: 0px;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	div#cajaImagenPublicidad {
+    	margin-top: 30% !important;
+	}
+	.fondoEncuesta {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    margin-right: 0% !important;
+	    height: 100%;
+	}
+	.controlaEspacioimg {
+	    width: 100%;
+	    height: 70%;
+	}
+	/*estilos para la clase container de bootstrap*/
+	.container {
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	margin-right: auto;
+    	margin-left: auto;
+    	margin-top: 0%;
+    	margin-bottom: 5% !important;
+    	width: 100%;
+    	height: auto;
+    	position: relative;
+    	z-index: 1;
+	}
+	#menuT {
+	    position: absolute;
+	    width: 100%;
+	    height: auto;
+	}
+	/*Estilos para la clase row que contiene los iconos de redes sociales*/
+	div#fondoIconos {
+    	background-color: #57595B;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 0% !important;
+	    margin-top: 20%;
+	    margin-bottom: 0%;
+	    width: 100%;
+	}
+	/*Estilos botonoes envio, cancela formulario*/
+	#btn_envia {
+	    color: #fff;
+	    background-color: #00BE65;
+	    border-color: #00BE65;
+	   	margin-bottom: 15px;
+	    width: 100%;
+	}
+	#btn_cancela {
+	    color: #FFF;
+	    background-color: #DE2626;
+	    border-color: #E00202;
+	    width: 100%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+        margin-left: 0%;
+	}
+	div#icoSocialT{
+		margin-left: 20%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+    }
+    
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF:hover{
+    	margin-left: 0%;
+	}
+	div#icoSocialT:hover{
+		margin-left: 20%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 40%;
+		background: url('../img/instagramovilchanito.png');
+	}
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+		/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 25pt !important;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 15pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 5%;
+	}
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1400px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 110px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -5%;
+    	margin-bottom: 100px;
+    	margin-left: 40%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -15%;
+    	font-size: 25pt;
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: left;
+	}
+	div#TexBioinfo {
+    	text-align: left;
+	}
+}
+@media screen and (max-width: 598px){
+	footer#piePagina {
+    margin-top: 5%;
+	}
+
+	div#icoSocialF {
+    float: left;
+    z-index: 100;
+    position: absolute;
+    margin-left: 0%;
+	}
+	div#icoSocialF:hover {
+    margin-left: 0%;
+	}
+
+	div#icoSocialT {
+    margin-left: 20%;
+    margin-right: 0;
+    float: left;
+    position: absolute;
+    z-index: 100;
+	}
+
+	div#icoSocialT:hover {
+    margin-left: 20%;
+	}
+
+	div#icoSocialI {
+    margin-left: 40%;
+    margin-right: 45%;
+    background: url('../img/intagramchanitomovil.png');
+    position: absolute;
+    float: left;
+	}
+
+	div#icoSocialI:hover {
+    margin-left: 40%;
+    background: url('../img/instagramovilchanito.png');
+	}
+ 		
+ 	div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+	}
+     
+     div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+	}
+
+	div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+	}
+
+	div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+	}
+
+
+	.form_container {
+    position: relative;
+    margin-left: 0% !important;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    width: 100%;
+	}
+}
+@media screen and (max-width: 568px){ /*estilos landscape iphone 5*/
+	nav#contenedorMenu {
+    	padding-top: 12% !important;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+    	position: relative;
+    	margin-left: 0% !important;
+    	margin-top: 0%;
+    	width: 100%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+        margin-left: 0%;
+	}
+	div#icoSocialT{
+		margin-left:20%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+   		background-repeat: no-repeat;
+	}
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF:hover{
+    	margin-left: 0%;
+	}
+	div#icoSocialT:hover{
+		margin-left: 20%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 40%;
+		background: url('../img/instagramovilchanito.png');
+		background-repeat: no-repeat;
+
+	}
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+	}
+    div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+		/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 90%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 25pt !important;
+    	margin-top:0px;
+    	margin-bottom: 0px;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 0%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left: 0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-right: 45%;
+    position: relative;
+    float: left;
+    }
+	/*Estilos para los iconos redes*/
+	div#icoFacebook:hover {
+    background: url('../img/hover/chanito-facebookHover.png');
+    background-repeat: no-repeat;
+    margin-left: 0%;
+        --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+	}
+	div#icotwitter:hover {
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/hover/chanitotwitterHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icoinstagram:hover{
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+	}
+    div#icoyoutube:hover {
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    div#icogoogle:hover {
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 80%;
+    margin-right: 50%;
+    position: relative;
+    float: left;
+	}
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 0%;
+    	    z-index: 0;
+	}
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1380px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 130px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -10%;
+    	margin-bottom: 25px;
+    	margin-left: 35%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+    .controlaEspacioimg {
+    width: 100%;
+    height: 70%;
+    margin-top: -10%;
+	}
+}
+@media screen and (max-width: 533px){
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1420px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 130px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -10%;
+    	margin-bottom: 25px;
+    	margin-left: 35%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+	.form_container{
+		margin-top: 10%;
+	}
+}
+@media screen and (max-width: 480px) {
+	/*Inician los estilos para el menu Responsive*/
+	nav{
+			box-sizing: border-box;
+			left: -18em;
+			height: 100%;
+			padding-right: .25em;
+			padding-top: 3em;
+			position: absolute;
+			top: 0;
+			transition: all .3s;
+			z-index: 20;
+		}
+	nav.VerMenu {
+  			left: 0;
+  			padding-left: 8px;
+  		    padding-top: 65px;
+  		    width: 150px;
+  		    height: 100%;
+	}
+	nav#contenedorMenu {
+    		position: absolute !important;
+    		padding-top: 15% !important;
+    		z-index: 10;
+	}
+	.VerMenuIco {
+			background: url('../img/MR.png');
+			background-repeat: no-repeat;
+			cursor: pointer;
+			left: 2em;
+		    height: 40px;
+			position: fixed;
+			top: 1.5em;
+			width: 100px;
+			z-index: 30;
+	}
+	#MenuPrincipal {
+  			font-size: 15pt;
+  			list-style: none;
+  			line-height: 280%;
+  			margin-left: 0;
+  			margin-top: 0;
+  			position: fixed;
+  			margin-left: 20px;
+  			width: 30%;
+  			background-color: rgba(255, 255, 255, 0.57);
+	}
+	#MenuPrincipal li {
+		    box-shadow: 4px 0 rgba(10,152,52,4.2) inset;
+		    margin-bottom: 5px;
+		    padding-left: .8em;
+		    /* outline: 1px solid green; */
+		    --webkit-transition: all .5s;
+		    -o-transition: all .5s;
+		    transition: all .5s;
+	}
+	/*Espacio de letras y el margen verde menu Responsivo (Rodi)*/
+	#MenuPrincipal a {
+	    color: #000000;
+	    display: block;
+	    padding-left: 0;
+	    text-decoration: none;
+	    --webkit-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s;
+	    width: 100%;
+	    font-weight: bold;
+	}
+	#piePagina {
+	    height: 90px !important;
+	    position: absolute !important;
+	    text-align: center;
+	    z-index: 10;
+	    width: 100%;
+	    margin-top: 0%;
+	    padding-left: 0%;
+	    background-color: #57595B;
+	}
+	.titleFooter {
+    	font-size: 15pt;
+	}
+	.subTitleFooter {
+	    font-size: 14pt;
+	}
+	/*Estilos para el contenedor del menu*/
+	nav#contenedorMenu {
+	    position: relative;
+	    padding-top: 15.9%;
+	}
+	/*Estilos para el boton encuesta*/
+	#btnEncuesta {
+	    margin: 0 !important;
+	    font: inherit !important;
+	    color: inherit !important;
+	    margin-left: 0px !important;
+	    margin-top: 0% !important;
+	    width: 100% !important;
+	    height: 60px !important;
+	}
+	/*estilos para el menu*/
+	.TrianguloFondo {
+	    width: 100%;
+	    z-index: 5;
+	    position: fixed;
+	    background: #57595B;
+	    height: 70px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	/*Estilos para el contenedor ROW */
+	.row {
+	    margin-right: 5px !important;
+	    margin-left: 5px !important;
+	    margin-bottom: 0px;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	div#cajaImagenPublicidad {
+    	margin-top: 40px !important;
+	}
+	.fondoEncuesta {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    margin-right: 0% !important;
+	    height: 100%;
+	}
+	.controlaEspacioimg {
+	    width: 100%;
+	    height: 70%;
+	    margin-top: 10%;
+	}
+	/*estilos para la clase container de bootstrap*/
+	.container {
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	margin-right: auto;
+    	margin-left: auto;
+    	margin-top: 40px;
+        margin-bottom: 0px !important;
+    	width: 100%;
+    	height: auto;
+    	position: relative;
+    	/* outline-style: solid; */
+    	/* outline-color: blue; */
+    	/* outline-width: 1px; */
+    	z-index: 1;
+	}
+	#menuT {
+	    position: absolute;
+	    width: 100%;
+	    height: auto;
+	}
+	/*Estilos para la clase row que contiene los iconos de redes sociales*/
+	div#fondoIconos {
+    	background-color: #57595B;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 0% !important;
+	    margin-top: 5%;
+	    width: 100%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+         margin-left: 0%;
+	}
+	div#icoSocialT{
+		margin-left: 20%;
+    	margin-right: 0%;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+    
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF:hover{
+    	float: left;
+    	z-index: 100;
+    	position: absolute;
+    	margin-left: 0%;
+	}
+	div#icoSocialT:hover{
+		margin-left: 20%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 40%;
+		background: url('../img/instagramovilchanito.png');
+		background-repeat: no-repeat;
+	}
+    
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+	/*Estilos para la biografia*/
+	div#controlaTituloBio {
+    	 margin-bottom: 0px;
+ 	  	 margin-top: 0px;
+	}
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom:	0%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    margin-right: 45%;
+    position: relative;
+    float: left;
+    }
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    
+	/*estilos hover para los iconos socialmedia*/
+	div#icoFacebook:hover {
+    	background: url('../img/hover/chanito-facebookHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 0%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icotwitter:hover {
+    	
+    	background: url('../img/hover/chanitotwitterHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%; 
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icoinstagram:hover{
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+	}
+    div#icoyoutube:hover {
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 60%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    div#icogoogle:hover {
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 80%;
+    margin-right: 50%;
+    position: absolute;
+    float: left;
+	}
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 10%;
+    	position: absolute;
+    	z-index: 1;
+	}
+		/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1480px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 80px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -10%;
+    	margin-bottom: 25px;
+    	margin-left: 35%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+}
+@media screen and (max-width: 414px){
+    .container{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+   	}
+    .row {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    margin-bottom: 0px;
+    }
+    
+	nav#contenedorMenu {
+    	padding-top: 17% !important;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 0% !important;
+	    margin-top: 5%;
+	    width: 100%;
+	    margin-bottom: 0%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+        margin-left: 0%;
+	}
+	div#icoSocialT{
+		margin-left: 20%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para los iconos redes sociales hover*/
+	div#icoSocialF:hover{
+    	margin-left: 0%;
+        
+	}
+	div#icoSocialT:hover{
+		margin-left: 20%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 40%;
+		background: url('../img/instagramovilchanito.png');
+	}
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left: 0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 65%;
+    margin-right: 45%;
+    position: relative;
+    float: left;
+    }
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    
+    
+    div#icoFacebook:hover {
+    background: url('../img/hover/chanito-facebookHover.png');
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    }
+    div#icotwitter:hover {
+    background: url('../img/hover/chanitotwitterHover.png');
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    }
+    div#icoinstagram:hover {
+    width: 34px;
+    height: 34px;
+    background: url('../img/instagramovilchanito.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    }
+    div#icoyoutube:hover {
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 65%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    
+    div#icogoogle:hover {
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 80%;
+    margin-right: 50%;
+    position: absolute;
+    float: left;
+    }
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 27.5%;
+	}
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1550px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 40px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: 5%;
+    	margin-bottom: 25px;
+    	margin-left: 30%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+
+	.controlaEspacioimg {
+    width: 100%;
+    height: 70%;
+    margin-top: 30%;
+	}
+}
+@media screen and (max-width: 384px){
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	float: left;
+    	z-index: 100;
+    	position: absolute;
+    	margin-left: 10%;
+		}
+	div#icoSocialT{
+		margin-left: 25%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+		}
+	div#icoSocialI{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	position: absolute;
+   		float: left;
+		}
+    div#icoSocialY {
+    	margin-left: 55%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-canal-youtube.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	float: left;
+    	}
+    div#icoSocialG {
+    	margin-left: 70%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-googleplus.png');
+    	position: absolute;
+    	float: left;
+    	}
+	div#icoSocialF:hover {
+   	 	margin-left: 10%;
+		}
+
+	div#icoSocialT:hover{
+		margin-left: 25%;
+		}
+	div#icoSocialI:hover{
+		margin-left: 40%;
+		background: url('../img/instagramovilchanito.png');
+        background-repeat: no-repeat;
+		}
+    div#icoSocialY:hover {
+    margin-left: 55%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    	}
+    div#icoSocialG:hover {
+    margin-left: 70%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    	}
+		/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+		}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+		}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+		}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0;
+		}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+		}
+
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+		}
+
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	float: left;
+		}
+
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/instagramChanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+		}
+
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+		}
+
+	footer#piePagina {
+    	margin-top: 15%;
+		}
+}
+@media screen and (max-width: 375px){/*Estilos iphone 6*/
+	/*Estilos para el contenedor*/
+	.container {
+    	margin-bottom: 0px !important;
+    	margin-top: 20%;
+	}
+	nav#contenedorMenu{
+		padding-top: 18% !important;
+	}
+		/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 0% !important;
+	    margin-top: 5%;
+	    margin-bottom: 0%;
+	    width: 100%;
+	}
+	/*Estilos para los iconos redes sociales*/
+	div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+        margin-left: 0%;
+	}
+	div#icoSocialT{
+		margin-left: 20%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	div#icoSocialF:hover{
+    	margin-left: 0%;
+	}
+	div#icoSocialT:hover{
+		margin-left: 20%;
+    	margin-right: 40%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+	}
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left: 0%;
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 65%;
+    margin-right: 45%;
+    position: relative;
+    float: left;
+    }
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+	div#icoFacebook:hover{
+		margin-left: 0%;
+	}
+    div#icotwitter:hover {
+    background: url('../img/hover/chanitotwitterHover.png');
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    }
+    div#icoinstagram:hover {
+    width: 34px;
+    height: 34px;
+    background: url('../img/instagramovilchanito.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    }
+    div#icoyoutube:hover {
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 65%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    div#icogoogle:hover {
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 80%;
+    margin-right: 50%;
+    position: absolute;
+    float: left;
+    }
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 10.5%;
+	}
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1620px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 40px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: 5%;
+    	margin-bottom: 25px;
+    	margin-left: 30%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+    .controlaEspacioimg {
+    width: 100%;
+    height: 70%;
+    margin-top: 36%;
+    }   
+}
+@media screen and (max-width: 360px){
+	#MenuPrincipal {
+    	font-size: 15pt;
+    	list-style: none;
+    	line-height: 280%;
+    	margin-left: 0;
+    	margin-top: 4px;
+    	position: fixed;
+    	margin-left: 0px;
+    	width: 30%;
+    	background-color: rgba(255, 255, 255, 0.57);
+	}
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width:0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+    .form_container {
+    position: relative;
+    margin-left: 0% !important;
+    margin-top: 20%;
+    margin-bottom: 0%;
+    width: 100%;
+	}
+		/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+    footer#piePagina {
+    	margin-top: 13.5%;
+	}
+	.controlaEspacioimg {
+    	margin-top: 0%;
+    	margin-bottom: 6%;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+    div#icoyoutube {
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 65%;
+    margin-right: 45%;
+    position: relative;
+    float: left;
+    }
+    div#icogoogle {
+    background: url('../img/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    margin-left: 80%;
+    margin-right: 45%;
+    position: absolute;
+    float: left;
+    }
+    div#icoFacebook:hover {
+    margin-left: 0%;
+    }
+    div#icotwitter:hover {
+    background: url('../img/hover/chanitotwitterHover.png');
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    --webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+    }
+    div#icoinstagram:hover {
+    width: 34px;
+    height: 34px;
+    background: url('../img/instagramovilchanito.png');
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    }
+    div#icoyoutube:hover {
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    margin-left: 65%;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    }
+    div#icogoogle:hover {
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    background-repeat: no-repeat;
+    --webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    margin-left: 80%;
+    margin-right: 50%;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialF {
+    	 float: left;
+    	 z-index: 100;
+    	 position: absolute;
+        margin-left: 0%;
+	}
+	div#icoSocialT{
+		margin-left: 20%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+	}
+	div#icoSocialI{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+   		float: left;
+	}
+    div#icoSocialY {
+    margin-left: 60%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    float: left;
+    }
+    div#icoSocialG {
+    margin-left: 80%;
+    margin-right: 45%;
+    background: url('../img/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	div#icoSocialF:hover{
+    	margin-left: 0%;
+	}
+	div#icoSocialT:hover{
+		margin-left: 20%;
+    	margin-right: 40%;
+	}
+	div#icoSocialI:hover{
+		margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+	}
+    div#icoSocialY:hover {
+    margin-left: 60%;
+    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    background-repeat: no-repeat;
+    }
+    div#icoSocialG:hover {
+    margin-left: 80%;
+    margin-right: 50%;
+    background: url('../img/hover/chanito-toledo-googleplus.png');
+    position: absolute;
+    float: left;
+    }
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}	
+	div#controlaTituloBio {
+
+	    margin-bottom: 0px;
+	    margin-top: 0px;
+	    position: absolute;
+	    margin-top: 460%;
+	    width: 100%;
+	    background-color: #57595B;
+	}
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important;
+    	padding-right: 0px !important;
+    	margin-top: 23%;
+	}
+}
+@media screen and (max-width: 320px) {
+	/*Inician los estilos para el menu Responsive*/
+	nav{
+			box-sizing: border-box;
+			left: -18em;
+			height: 100%;
+			padding-right: .25em;
+			padding-top: 3em;
+			position: absolute;
+			top: 0;
+			transition: all .3s;
+			z-index: 20;
+		}
+	nav.VerMenu {
+  			left: 0;
+  			padding-left: 8px;
+  		    padding-top: 65px;
+  		    width: 150px;
+  		    height: 100%;
+	}
+	nav#contenedorMenu {
+    		position: absolute !important;
+    		padding-top: 22% !important;
+    		z-index: 10;
+	}
+	.VerMenuIco {
+			background: url('../img/MR.png');
+			background-repeat: no-repeat;
+			cursor: pointer;
+			left: 2em;
+		    height: 40px;
+			position: fixed;
+			top: 1.5em;
+			width: 100px;
+			z-index: 30;
+	}
+	#MenuPrincipal {
+  			font-size: 15pt;
+  			list-style: none;
+  			line-height: 280%;
+  			margin-left: 0;
+  			margin-top: 0;
+  			position: fixed;
+  			margin-left: 20px;
+  			width: 30%;
+  			background-color: rgba(255, 255, 255, 0.57);
+	}
+	#MenuPrincipal li {
+		    box-shadow: 4px 0 rgba(10,152,52,4.2) inset;
+		    margin-bottom: 5px;
+		    padding-left: .8em;
+		    /* outline: 1px solid green; */
+		    --webkit-transition: all .5s;
+		    -o-transition: all .5s;
+		    transition: all .5s;
+	}
+	/*Espacio de letras y el margen verde menu Responsivo (Rodi)*/
+	#MenuPrincipal a {
+	    color: #000000;
+	    display: block;
+	    padding-left: 0;
+	    text-decoration: none;
+	    --webkit-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s;
+	    width: 100%;
+	    font-weight: bold;
+	}
+	#piePagina {
+	    height: 90px !important;
+	    position: absolute !important;
+	    text-align: center;
+	    /* margin-right: 10px; */
+	    z-index: 10;
+	    width: 100%;
+	    /* margin-left: 0%; */
+	    /* margin-top: 100%; */
+	    padding-left: 0%;
+	    background-color: #57595B;
+	}
+	.titleFooter {
+    	font-size: 15pt;
+	}
+	.subTitleFooter {
+	    font-size: 14pt;
+	}
+	/*Estilos para el contenedor del menu*/
+	nav#contenedorMenu {
+	    position: relative;
+	    padding-top: 15.9%;
+	}
+	/*Estilos para el boton encuesta*/
+	#btnEncuesta {
+	    margin: 0 !important;
+	    font: inherit !important;
+	    color: inherit !important;
+	    margin-left: 0px !important;
+	    margin-top: 0% !important;
+	    width: 100% !important;
+	    height: 60px !important;
+	}
+	/*estilos para el menu*/
+	.TrianguloFondo {
+	    width: 100%;
+	    z-index: 5;
+	    position: fixed;
+	    background: #57595B;
+	    height: 70px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	/*Estilos para el contenedor ROW */
+	.row {
+	    margin-right: 5px !important;
+	    margin-left: 5px !important;
+	    margin-bottom: 0px;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+    	margin-top: 0%;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	div#cajaImagenPublicidad {
+    	margin-top: 30px !important;
+	}
+	.fondoEncuesta {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    margin-right: 0% !important;
+	    height: 100%;
+	}
+	.controlaEspacioimg {
+	    width: 100%;
+	    height: 70%;
+	    margin-top: 30%;
+	}
+	/*estilos para la clase container de bootstrap*/
+	.container {
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	margin-right: auto;
+    	margin-left: auto;
+        margin-top: 70px;
+    	margin-bottom: 0px !important;
+    	width: 100%;
+    	height: auto;
+    	position: relative;
+    	/* outline-style: solid; */
+    	/* outline-color: blue; */
+    	/* outline-width: 1px; */
+    	z-index: 1;
+	}
+	#menuT {
+	    position: absolute;
+	    width: 100%;
+	    height: auto;
+	}
+	/*Estilos para la clase row que contiene los iconos de redes sociales*/
+	div#fondoIconos {
+    	background-color: #57595B;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 0% !important;
+	    margin-top: 5%;
+		margin-bottom: 0%;
+	    width: 100%;
+	}
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 0%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0%;
+    	margin-bottom: 0%;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 20%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+    div#icoyoutube {
+    	background: url('../img/chanito-toledo-canal-youtube.png');
+    	background-repeat: no-repeat;
+    	margin-left: 60%;
+    	margin-right: 45%;
+    	position: absolute;
+    	float: left;
+    }
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+   
+	div#icoFacebook:hover {
+    	background: url('../img/hover/chanito-facebookHover.png');
+    	background-repeat: no-repeat;
+    	margin-left: 0%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icotwitter:hover {
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/hover/chanitotwitterHover.png');
+    	background-repeat: no-repeat;
+    	margin-left:20%;
+        --webkit-transition: all .6s;
+    	-o-transition: all .6s;
+    	transition: all .6s;
+	}
+	div#icoinstagram:hover{
+    	width: 34px;
+    	height: 34px;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 40%;
+	}
+    div#icoyoutube:hover {
+    	background: url('../img/hover/chanito-toledo-canal-youtube.png');
+    	background-repeat: no-repeat;
+    	margin-left: 60%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+	}
+     div#icoSocialF {
+    	float: left;
+    	z-index: 100;
+    	position: absolute;
+    	margin-left: 0%;
+    }
+    div#icoSocialT {
+    	margin-left: 20%;
+    	margin-right: 0;
+    	float: left;
+    	position: absolute;
+    	z-index: 100;
+    }
+	div#icoSocialI {
+    	margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/intagramchanitomovil.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	float: left;
+	}
+    div#icoSocialY {
+    	margin-left: 60%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-canal-youtube.png');
+    	background-repeat: no-repeat;
+    	position: absolute;
+    	float: left;
+    }
+    div#icoSocialG {
+    	margin-left: 80%;
+    	margin-right: 45%;
+    	background: url('../img/chanito-toledo-googleplus.png');
+    	position: absolute;
+    	float: left;
+    }
+    div#icoSocialF:hover {
+    	margin-left: 0%;
+    }
+    div#icoSocialT:hover {
+    	margin-left: 20%;
+    }
+    div#icoSocialI:hover {
+    	margin-left: 40%;
+    	margin-right: 45%;
+    	background: url('../img/instagramovilchanito.png');
+    	background-repeat: no-repeat;
+	}
+    
+    div#icoSocialY:hover {
+	    margin-left: 60%;
+	    background: url('../img/hover/chanito-toledo-canal-youtube.png');
+	    background-repeat: no-repeat;
+	}
+    div#icoSocialG:hover {
+	    margin-left: 80%;
+	    margin-right: 45%;
+	    background: url('../img/hover/chanito-toledo-googleplus.png');
+	    position: absolute;
+	    float: left;
+    }
+	footer#piePagina {
+    	margin-top: 15%;
+	}
+	/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 535%;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 35px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: 5%;
+    	margin-bottom: 25px;
+    	margin-left: 25%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+}
+@media screen and (max-width: 240px) {
+	/*Inician los estilos para el menu Responsive*/
+	nav{
+			box-sizing: border-box;
+			left: -18em;
+			height: 100%;
+			padding-right: .25em;
+			padding-top: 3em;
+			position: absolute;
+			top: 0;
+			transition: all .3s;
+			z-index: 20;
+		}
+	nav.VerMenu {
+  			left: 0;
+  			padding-left: 8px;
+  		    padding-top: 65px;
+  		    width: 150px;
+  		    height: 100%;
+	}
+	nav#contenedorMenu {
+    		position: absolute !important;
+    		padding-top: 15% !important;
+    		z-index: 10;
+	}
+	.VerMenuIco {
+			background: url('../img/MR.png');
+			background-repeat: no-repeat;
+			cursor: pointer;
+			left: 2em;
+		    height: 40px;
+			position: fixed;
+			top: 1.5em;
+			width: 100px;
+			z-index: 30;
+	}
+	#MenuPrincipal {
+  			font-size: 15pt;
+  			list-style: none;
+  			line-height: 280%;
+  			margin-left: 0;
+  			margin-top: 0;
+  			position: fixed;
+  			margin-left: 20px;
+  			width: 30%;
+  			background-color: rgba(255, 255, 255, 0.57);
+	}
+	#MenuPrincipal li {
+		    box-shadow: 4px 0 rgba(10,152,52,4.2) inset;
+		    margin-bottom: 5px;
+		    padding-left: .8em;
+		    /* outline: 1px solid green; */
+		    --webkit-transition: all .5s;
+		    -o-transition: all .5s;
+		    transition: all .5s;
+	}
+	/*Espacio de letras y el margen verde menu Responsivo (Rodi)*/
+	#MenuPrincipal a {
+	    color: #000000;
+	    display: block;
+	    padding-left: 0;
+	    text-decoration: none;
+	    --webkit-transition: all .5s;
+	    -o-transition: all .5s;
+	    transition: all .5s;
+	    width: 20%;
+	    font-weight: bold;
+	}
+	#piePagina {
+	    height: 120px !important;
+	    position: absolute !important;
+	    text-align: center;
+	    /* margin-right: 10px; */
+	    z-index: 10;
+	    width: 100%;
+	    /* margin-left: 0%; */
+	    /* margin-top: 100%; */
+	    padding-left: 0%;
+	    background-color: #5FBD6A;
+	}
+	.titleFooter {
+    	font-size: 15pt;
+	}
+	.subTitleFooter {
+	    font-size: 14pt;
+	}
+	/*Estilos para el contenedor del menu*/
+	nav#contenedorMenu {
+	    position: relative;
+	    padding-top: 15.9%;
+	}
+	/*Estilos para el boton encuesta*/
+	#btnEncuesta {
+	    margin: 0 !important;
+	    font: inherit !important;
+	    color: inherit !important;
+	    margin-left: 0px !important;
+	    margin-top: 0% !important;
+	    width: 100% !important;
+	    height: 60px !important;
+	}
+	/*estilos para el menu*/
+	.TrianguloFondo {
+	    width: 100%;
+	    z-index: 5;
+		position: fixed;
+	    background: #57595B;
+	    height: 70px;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+	/*Estilos para el contenedor ROW */
+	.row {
+	    margin-right: 0px !important;
+	    margin-left: 0px !important;
+	    margin-bottom: 0px;
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	/*Estilos para la imagen y boton Encueesta*/
+	.cajaEncuesta {
+    	width: 100%;
+    	padding-left: 0px !important; 
+    	padding-right: 0px !important; 
+	}
+	div#cajaImagenPublicidad {
+    	margin-top: 40px !important;
+	}
+	.fondoEncuesta {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    margin-right: 0% !important;
+	    height: 100%;
+	}
+	.controlaEspacioimg {
+	    width: 100%;
+	    height: 70%;
+	}
+	/*estilos para la clase container de bootstrap*/
+	.container {
+    	padding-right: 15px;
+    	padding-left: 15px;
+    	margin-right: auto;
+    	margin-left: auto;
+    	margin-top: 40px;
+    	margin-bottom: 15px !important;
+    	width: 100%;
+    	height: auto;
+    	position: relative;
+    	/* outline-style: solid; */
+    	/* outline-color: blue; */
+    	/* outline-width: 1px; */
+    	z-index: 1;
+	}
+	#menuT {
+	    position: absolute;
+	    width: 100%;
+	    height: auto;
+	}
+	/*Estilos para la clase row que contiene los iconos de redes sociales*/
+	div#fondoIconos {
+    	background-color: #57595B;
+	}
+	/*estilos para el formulario de contacto*/
+	.form_container {
+	    position: relative;
+	    margin-left: 30% !important;
+	    margin-top: 5%;
+	    width: 45%;
+	}
+	/*Estilos para la imagen chanito*/
+	div#imgChanito {
+    	position: relative;
+    	float: left;
+    	width: 90%;
+    	z-index: 3;
+    	margin-left: 0px;
+    	margin-top: 0px;
+    	visibility: hidden;
+	}
+	/*Estilos para el margen top del formulario*/
+	form#formulario {
+    	margin-top: 0px;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	/* margin-left: 40%; */
+    	float: left;
+	}
+	/*Estilos para la biografia*/
+	h1#tituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 18pt !important;
+	}
+	h2#subtituloBio {
+    	text-align: center;
+    	font-weight: bold;
+    	font-size: 12pt;
+    	color: gray;
+    	margin-top: 0;
+	}
+	.redes{
+    	margin-left: 0%;
+    	margin-bottom: 10%;
+	}
+	div#icoFacebook {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanito-facebook.png');
+    	background-repeat: no-repeat;
+    	margin-left:0%; 
+    	float: left;
+	}
+	div#icotwitter {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/chanitoTwitter.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	float: left;
+	}
+	div#icoinstagram {
+    	width: 34px !important;
+    	height: 34px !important;
+    	background: url('../img/instagramChanito.png');
+    	background-repeat: no-repeat;
+    	margin-left: 25%;
+    	--webkit-transition: all .5s;
+    	-o-transition: all .5s;
+    	transition: all .5s;
+    	float: left;
+	}
+	div#biografiaContent {
+    	width: 100%;
+    	text-align: justify;
+    	font-size: 15pt;
+    	margin-left: 0%;
+    	margin-right: 0%;
+	}
+	footer#piePagina {
+    	margin-top: 25.5%;
+	}
+		/*Estilos para el footerDelaBiografia*/
+	div#controlaTituloBio {
+    	margin-bottom: 0px;
+    	margin-top: 0px;
+    	position: absolute;
+    	margin-top: 1770px;
+    	width: 100%;
+    	background-color: #57595B;
+	}
+	.row.headBIO {
+    	margin-top: 35px;
+	}
+	.imgCV {
+    	width: 150px;
+    	height: 150px;
+    	-moz-border-radius: 50%;
+    	-webkit-border-radius: 50%;
+    	border-radius: 50%;
+    	background: url('../img/cvchanitoledo.png');
+    	margin-top: -10%;
+    	margin-bottom: 25px;
+    	margin-left: 25%;
+	}
+	h3#TituloCV {
+    	text-align: center;
+    	font-weight: bold;
+    	margin-top: -5%;
+    	font-size: 25pt;
+	}
+	#tituloHistorialBio {
+    	font-size: 14pt;
+    	font-weight: bold;
+    	text-align: center;
+	}
+	div#TexBioResponsive {
+    	text-align: center;
+	}
+	div#TexBioinfo {
+    	text-align: justify;
+	}
+}
+
+
+
+
+
+
+
